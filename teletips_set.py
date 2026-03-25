@@ -14,9 +14,10 @@ from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
     "Countdown-TeLeTiPs",
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    bot_token = os.environ["BOT_TOKEN"]
+    api_id = int(os.environ["34257542"]),
+    api_hash = os.environ["614a1b5c5b712ac6de5530d5c571c42a"],
+    bot_token = os.environ["8662063487:AAFhVJQSQCpn52tv98ISkZO0ztAWCDml4UU"]
+    ADMIN_ID = 1486879970
 )
 
 footer_message = os.environ["FOOTER_MESSAGE"]
